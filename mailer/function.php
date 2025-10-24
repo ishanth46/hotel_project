@@ -26,8 +26,8 @@ function shoot_mailer($to, $cc, $bcc, $subject, $message, $file = "")
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'ishanth.qrestik@gmail.com';  // Gmail username
-        $mail->Password   = 'sdjwlvmljhxqeqtl';          // Gmail app password
+        $mail->Username   = '*****@gmail.com';  
+        $mail->Password   = '**************';          
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
